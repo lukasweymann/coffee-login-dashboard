@@ -1,12 +1,49 @@
+body{
+  background-color: #ED7B35;
+}
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-logo {
+  width: 400px;
 }
 
+form{
+  display:flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+
+form input{
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  font-size: larger;
+  border-radius: 5px;
+  border-color: #fcb4be;
+  background-color: #fcb4be;
+  opacity: 0.6;
+  width: 250px;
+  font-family: "Source Sans Pro", sans-serif;
+
+}
+button{
+  background-color: #ED7B35;
+  border: none;
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+button:hover{
+  color: #fcb4be;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
